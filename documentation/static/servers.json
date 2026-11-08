@@ -804,6 +804,17 @@
       "required": false
     }
   ]
+},
+{
+  "id": "getyoutubetranscript",
+  "name": "GetYouTubeTranscript",
+  "description": "YouTube transcripts, video and channel search, channel uploads and playlists",
+  "command": "npx -y mcp-remote https://getyoutubetranscript.com/api/mcp",
+  "link": "https://github.com/tubeagentkit/youtube-mcp",
+  "installation_notes": "Remote server reached through mcp-remote. Signs you in with OAuth in the browser on first use, no API key to paste. 100 free credits on signup, no card.",
+  "is_builtin": false,
+  "endorsed": false,
+  "environmentVariables": []
 }
 
 ]
